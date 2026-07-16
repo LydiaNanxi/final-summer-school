@@ -45,6 +45,7 @@ session08
 Lab2 task creates a gesture-controlled digital instrument with Google Teachable Machine image classification, p5.js, ml5 and p5.sound. I trained four recognition categories on the training platform: empty (no gesture) and three hand gestures linked to three unique sound samples. The program captures live webcam frames, plays matching audio when gestures change and stays silent under empty state. Optimizations like confidence threshold filtering and audio unlock function are added to avoid browser audio block and mis-triggering, building an interactive sound device controlled purely by hand movements.
 
 final project
+Due to GitHub's file size upload limitations, I am unable to upload the corresponding video assets for my final project. Only the program source code can be uploaded to the repository.
 <img width="3072" height="1650" alt="f1" src="https://github.com/user-attachments/assets/d518664c-df38-4d23-b55a-254d66154029" />
 <img width="3072" height="1650" alt="f2" src="https://github.com/user-attachments/assets/a619aa5a-7570-43fb-b1a4-657908ee66d8" />
 <img width="3072" height="1650" alt="f4" src="https://github.com/user-attachments/assets/b2ec8a76-49d6-4eb3-830f-a65bb589c003" />
