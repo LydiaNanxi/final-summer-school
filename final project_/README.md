@@ -1,5 +1,5 @@
 # final project_
-
+Due to GitHub's file size upload limitations, I am unable to upload the corresponding video assets for my final project. Only the program source code can be uploaded to the repository.
 ## Getting Started
 
 Open `index.html` in your web browser and start editing `sketch.js`.
