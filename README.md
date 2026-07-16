@@ -1,25 +1,58 @@
-# final project
+session01
+<img width="1400" height="1400" alt="自画像" src="https://github.com/user-attachments/assets/5f3c0891-0acf-4031-ae47-3f434e62781c" />
+In this lesson, we learned the fundamentals of the p5.js language and used it to create basic geometric shapes. We then combined various shapes to draw self-portraits. Taking inspiration from Picasso’s abstract style, I created an abstract self-portrait composed of geometric forms with rich, vibrant colors.
 
-## Getting Started
+session02
+<img width="1400" height="1400" alt="向日葵" src="https://github.com/user-attachments/assets/9dbd6185-ccf7-4c55-8dcc-883c90fc14ee" />
+In this lesson, I created a geometric sunflower artwork with p5.js. I coded using loop statements and basic shapes such as triangles and quadrilaterals, and applied random parameters to generate naturally varied colors and shapes for the petals. I drew inspiration from the color palette of Van Gogh’s sunflower paintings for my creation.
 
-Open `index.html` in your web browser and start editing `sketch.js`.
+session03
+<img width="1600" height="1200" alt="3-1" src="https://github.com/user-attachments/assets/9943c748-07ca-4d8f-8822-2385e7529274" />
+<img width="1600" height="1200" alt="3-2" src="https://github.com/user-attachments/assets/d1f2ffeb-f5f1-47f1-854b-e754412d3767" />
+<img width="1600" height="1200" alt="session3" src="https://github.com/user-attachments/assets/2012d88e-cd44-465b-9569-ac8662397ee9" />
+Completing the three-step iteration of subway visualization, I first made monochrome straight lines, mastering TFL subway API calls and basic rendering; then changed to colored curves, distinguishing lines with color schemes to optimize visual presentation; finally added dynamic thickness and light and shadow to improve picture texture. Each modification brought new gains, and I also learned the skills of combining code, data and vision.
 
-## Running Locally
+session04
+<img width="1200" height="1200" alt="蚂蚁画布" src="https://github.com/user-attachments/assets/1ec63b78-221d-4698-afa5-a1b03c3cf87f" />
+<img width="1280" height="960" alt="滤镜" src="https://github.com/user-attachments/assets/1b1d8aed-ba1b-4eef-a8de-361ec5895b6c" />
+<img width="2036" height="1598" alt="滤镜2" src="https://github.com/user-attachments/assets/d6905e9f-6199-4a38-bfb9-3952acf5b59d" />
+For Lab 2, I completed two assigned tasks separately: an annoying experimental drawing tool and an interactive sketch with customizable camera filters. These two independent sketches cover two different creative directions required by the lab brief.
+The first piece is the "annoying / surprising drawing tool" required by the brief. I created a swarm of ants that continuously follow and wander around the mouse cursor, disrupting users when they try to draw lines normally, so as to deliver a funny yet irritating visual experience.
+The second work completes the task of building an interactive sketch for customisable video capture. The program accesses the device’s camera to retrieve real-time footage. Equipped with interface elements such as sliders and buttons, it allows users to adjust brightness and filters live, write text directly on the screen, and switch between various visual styles freely. During this project, I mastered core development workflows in p5.js, including loading video streams, rendering pixel filters, and linking UI controls to visual parameters. I also gained an understanding of the design logic behind functional interactive interfaces, and clearly recognised how visual widgets reduce the learning cost for users.
+These two works reflect two distinct creative approaches covered in the lab. The first leans towards experimental emotional interaction, generating visual impact through dynamic moving elements; the second acts as a practical media tool, enabling controllable image editing with standardised interface components. Moving forward, I will optimise loop calculations to improve runtime performance and expand the customisation features for the camera feed. This lab practice comprehensively trained three core interactive development skills: dynamic instance generation, real-time media capture and interface component programming, laying hands-on practical experience for my future complex interactive artworks.
 
-For projects with media files, use a local server:
+session05
+<img width="1280" height="960" alt="5-1" src="https://github.com/user-attachments/assets/c6faa488-1e89-449b-bee8-b0ab6766a2c4" />
+<img width="1280" height="960" alt="5-2" src="https://github.com/user-attachments/assets/bc56646c-af71-4354-87a5-9b740ef812d5" />
+<img width="1280" height="960" alt="5-3" src="https://github.com/user-attachments/assets/283bd6ef-2638-4e68-8bd1-8d482b268285" />
+For this assignment, I developed a camera and gesture interactive mini-game using p5.js and MediaPipe for real-time face and hand recognition. The program overlays an alien mask on the user’s detected face captured by the camera. An energy bar at the top-left corner drains continuously when the user stays motionless and refills when the palm is open. Small enemies spawn randomly; defeating them with a fist gesture rewards 10 points, while opening the mouth generates rapid scores at the cost of faster energy loss, forming a balanced high-risk high-reward gameplay loop. During development, I integrated facial landmark tracking, multi-gesture detection, real-time image overlay and dynamic UI updates, and fixed recognition lag issues. I also noticed limitations such as unstable tracking under poor lighting and improvable enemy spawning logic. This practice helped me master the workflow of visual interaction development in p5.js, grasp the logic of balanced interactive game design, and built practical experience for future multimedia interactive artworks.
 
-```bash
-# Using Python
-python -m http.server 8000
+session06
+https://drive.google.com/drive/folders/1IpaEIMTz3aON3kuowl-yUwswBb6JgsND?usp=sharing
+This group case study focused on ChatGPT’s AI ethics, privacy policies and the UK Data and AI Ethics Framework. It allowed me to systematically analyze OpenAI’s rules for data collection, user safety and liability, as well as obvious ethical flaws hidden behind its terms of service. On the positive side, the platform has reasonable protective measures: users are allowed to delete personal data and opt out of model training, with age verification, parental supervision for teenagers and misuse monitoring built in. These measures comply with the accountability and data protection principles set by the UK AI ethics framework to some extent. However, multiple critical loopholes reveal severe ethical imbalance. OpenAI shifts all risks of factual inaccuracy and security bypasses to users, disclaiming nearly all legal liabilities through exemption clauses. It scrapes massive creative works without creators’ consent or compensation, violating copyright rules. The model inherits historical biases from internet data, disproportionately harming marginalized groups, while the environmental costs of large model training are entirely omitted from official policies. Moreover, ChatGPT operates as a commercial black box; training datasets and algorithm details remain confidential, which contradicts the transparency and fairness principles emphasized by the UK ethical framework. I realize such ethical compromises are calculated business trade-offs, where companies prioritize market speed over thorough ethical governance. Through this discussion, I stopped merely focusing on the convenience of AI tools. I have learned to evaluate AI products comprehensively from perspectives including data privacy, copyright, algorithmic fairness and liability distribution. I also recognized the necessity of regulatory audits and built-in fairness metrics, forming a mature critical mindset for artificial intelligence ethics.
 
-# Using Node.js
-npx http-server
+session07
+In this class, we gained a systematic understanding of the development of AI. We downloaded ComfyUI and imported models, which gave me a basic grasp of generative AI.
+<img width="1994" height="1228" alt="1" src="https://github.com/user-attachments/assets/12fc1839-d21f-4cee-9a0e-b92f683d2c02" />
+<img width="1024" height="576" alt="ComfyUI_temp_hoczf_00001_" src="https://github.com/user-attachments/assets/a90ad29f-1181-4248-a83b-df9164cb80e4" />
+<img width="1024" height="576" alt="ComfyUI_temp_acdpr_00001_" src="https://github.com/user-attachments/assets/50408595-99a6-4662-b3e3-c1d3d7132d13" />
+After that, I downloaded new models to set up workflows and tried generating several images.
 
-# Using VS Code Live Server extension
-# Right-click index.html -> "Open with Live Server"
-```
+session08
+<img width="640" height="520" alt="8-1" src="https://github.com/user-attachments/assets/88d5bc2e-4fe9-451f-99e7-2c2f8ce2c0d0" />
+<img width="640" height="520" alt="8-2" src="https://github.com/user-attachments/assets/6aa80f8e-c41d-493e-be4f-4380606523d3" />
+<img width="640" height="520" alt="8-3" src="https://github.com/user-attachments/assets/58951b3e-60aa-4bf5-b0b7-07731d7c7c3e" />
+Lab2 task creates a gesture-controlled digital instrument with Google Teachable Machine image classification, p5.js, ml5 and p5.sound. I trained four recognition categories on the training platform: empty (no gesture) and three hand gestures linked to three unique sound samples. The program captures live webcam frames, plays matching audio when gestures change and stays silent under empty state. Optimizations like confidence threshold filtering and audio unlock function are added to avoid browser audio block and mis-triggering, building an interactive sound device controlled purely by hand movements.
 
-## Resources
-
-- [p5.js 2.0](https://beta.p5js.org/)
-- [p5.js Reference](https://p5js.org/reference/)
+final project
+<img width="3072" height="1650" alt="f1" src="https://github.com/user-attachments/assets/d518664c-df38-4d23-b55a-254d66154029" />
+<img width="3072" height="1650" alt="f2" src="https://github.com/user-attachments/assets/a619aa5a-7570-43fb-b1a4-657908ee66d8" />
+<img width="3072" height="1650" alt="f4" src="https://github.com/user-attachments/assets/b2ec8a76-49d6-4eb3-830f-a65bb589c003" />
+<img width="3072" height="1650" alt="f3" src="https://github.com/user-attachments/assets/25ecdc92-a292-4db4-9c07-f180b2a3d99b" />
+<img width="3072" height="1650" alt="f5" src="https://github.com/user-attachments/assets/6c312b7d-d04c-4e43-86b5-8a3cea4f5a9d" />
+<img width="3072" height="1650" alt="f6" src="https://github.com/user-attachments/assets/84b328a0-3962-4883-8895-246fed0c071b" />
+<img width="3072" height="1650" alt="f9" src="https://github.com/user-attachments/assets/de16daef-084d-47ab-8c35-11466907f001" />
+<img width="3072" height="1650" alt="f8" src="https://github.com/user-attachments/assets/f72fee7b-457d-4d56-9065-bc6e94febc71" />
+<img width="3072" height="1650" alt="f7" src="https://github.com/user-attachments/assets/e2d50f10-0df6-4f71-8ca3-c933dac3e910" />
+For my final project, I created an interactive Tai Chi animation controlled by hand gestures. The work starts with an ink dot idle animation. When users point their palms to eight different directions including up, down, left, right and four diagonal orientations, distinct Tai Chi motion sequences will be triggered respectively. I adopted a hybrid creation workflow combining AI generative tools and coding: GPT Image 2 was used to generate ink-wash Tai Chi assets, Seedance 2.0 helped produce motion videos for animations, and I programmed palm tracking interaction logic with p5.js. During development, I encountered technical obstacles such as inaccurate hand landmark detection and flipped left-right recognition errors. Through constant parameter tuning of recognition thresholds and revision of coordinate mapping rules, all bugs were fixed in the final debugging phase. Rooted in traditional Tai Chi culture, this work aims to combine classic oriental aesthetics with modern real-time human-computer interaction. It abandons static ink painting presentation and allows audiences to immerse themselves in the rhythmic beauty of eight-direction Tai Chi movements via body gestures. The piece intends to demonstrate the unique charm arising from the integration of traditional culture and digital creative technology, as well as explore brand-new expression forms for heritage art within interactive new media. This project helped me master the collaborative workflow of AI image/video generators and p5.js visual interaction programming, improved my ability to troubleshoot and debug code, and cultivated my creative thinking of combining traditional art with digital media.
+>>>>>>> fcfad86a7006b5303a1706fe953b39abf22c8f92
