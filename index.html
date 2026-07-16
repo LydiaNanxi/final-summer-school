@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ink Tai Chi 墨意太极</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js"></script>
+  <!-- 手部识别 -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+  <!-- 人脸网格，用来读取鼻子坐标 -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <style>
+    body { margin:0; overflow:hidden; background:#f2f0eb; }
+    canvas { display:block; }
+    #camBox { position:fixed; width:1px; height:1px; opacity:0; }
+  </style>
+</head>
+<body>
+  <div id="camBox"></div>
+  <script src="sketch.js"></script>
+</body>
+</html>
